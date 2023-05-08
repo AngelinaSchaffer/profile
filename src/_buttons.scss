@@ -1,0 +1,21 @@
+.list {
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    height: 45px;
+    width: 400px;
+    transition: all 0.3s ease-in-out;
+    background-color: purple;
+    font-style: italic;
+    color: black;
+}
+
+.btn-nav {
+    width: 99px;
+    height: 40px;
+    text-align: center;
+}
+
+.list:hover {
+    color: aquamarine;
+}
