@@ -1,9 +1,6 @@
-.nav-new {
-    display: flex;
-    flex: row;
-    justify-content: space-between;
-    height: 194px;
-    width: 1440px;
+.body{
+    height: 95px;
+    width: 400px;
     background-color: teal;
 }
 
@@ -13,4 +10,10 @@
     background-color: beige;
     font-style: italic;
     opacity: 25%;
+}
+
+.logo {
+    height: 50px;
+    width: 70px;
+    background-color: beige;
 }
