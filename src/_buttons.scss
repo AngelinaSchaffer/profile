@@ -1,23 +1,47 @@
-.list {
-    display: flex;
-    flex: row;
-    justify-content: space-around;
-    height: 45px;
-    width: 400px;
-    background-color: teal;
-}
 
 .btn {
-    color: black;
-    background-color: aqua;
-    font-style: italic;
-    font-weight: bold;
-    width: 99px;
-    height: 40px;
-    text-align: center;
-    border-radius: 10px;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-.btn:hover {
-    color: purple;
+.btnhome {
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+    font-style: italic;
+    &:hover {
+        background-color: purple;
+    }
+}
+
+.btnabout {
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+    font-style: italic;
+    &:hover {
+        background-color: purple;
+    }
+}
+
+.btnwork {
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+    font-style: italic;
+    &:hover {
+        background-color: purple;
+    }
+}
+
+.btncontact {
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+    font-style: italic;
+    &:hover {
+        background-color: purple;
+    }
 }

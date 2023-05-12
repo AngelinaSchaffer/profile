@@ -1,14 +1,47 @@
 .body {
-    height: 1024px;
-    width: 1440px;
+   max-height: 1024px;
+   max-width: 1440px;
+}
+
+.bottom {
     background-color: teal;
 }
-.new-nav {
-    margin: 0%;
+
+.hero {
+    background-color: cadetblue;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    padding: 25px;
     display: flex;
     flex: row;
-    justify-self: space-between;
-    height: 194px;
-    width: 1440px;
-    background-color: teal;
 }
+
+.me {
+    margin: 25px;
+    height: 500px;
+    width: 500px; 
+}
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 2em;
+    justify-content: left; 
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em; 
+    margin: auto;
+    justify-content: center;
+}
+
+.copy {
+    background-color: teal;
+}   
